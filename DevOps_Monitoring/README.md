@@ -39,7 +39,7 @@ sudo apt-get install build-essential
 endi biz muhitga ega bo'ldik. Bizning dasturimiz container sifatida ishlaydi.
 # Install Prometheus
 
-Biz endi monitoring qilishimiz uchun Prometheus ni tanladik chunki.............................................................................................................................................................................
+Biz endi monitoring qilishimiz uchun Prometheus ni tanladik. Prometheus - bu hodisalarni kuzatish va ogohlantirish uchun ishlatiladigan bepul dastur . U moslashuvchan soʻrovlar va real vaqtda ogohlantirish bilan HTTP tortish modelidan foydalangan holda qurilgan vaqt seriyasidagi maʼlumotlar bazasida (yuqori oʻlchamlilikka imkon beruvchi) real vaqt koʻrsatkichlarini qayd qiladi.
 
 Avvaliga biz yangi foydalanuvchi yaratib olamiz
 ```js
@@ -125,7 +125,7 @@ ExecStart=/usr/local/bin/prometheus \
 [Install]
 WantedBy=multi-user.target
 ```
-Endi Faylni saqlab chiqib ketasiz va systtemd ni qayta yuklaymiz:
+Endi Faylni saqlab chiqib ketasiz va systemd ni qayta yuklaymiz:
 ```js
 sudo systemctl daemon-reload
 ```
@@ -257,29 +257,7 @@ Va buni ham huddi prometheus kabi serverni 9093 portini to'g'irlab uni brauzerda
  http:// *serverIpManzili* :9090 
 ```
 # Install Grafana
-Grafana ko'p platformali ochiq manbali tahlil va interaktiv vizualizatsiya veb-ilovasidir.
-..................
-.
-.
-.
-.
-
-
-.
-.
-
-.
-.
-
-.
-
-.
-.
-
-.
-
-.
-.
+Grafana ko'p platformali ochiq manbali tahlil va interaktiv vizualizatsiya veb-ilovasidir.    
 
 Grafana sozlamalari ham Prometheus va Alertmanager ga qaraganda ancha sodda.
 
@@ -307,6 +285,5 @@ va unga kirayotganimizda bizdan username va parol so`raladi ularni ikkalasi ham 
 
 
 # Installing the Node Exporter
+
 # Install Stress
-#
-#
