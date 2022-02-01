@@ -1,3 +1,4 @@
+# Tugatilmagan ma`lumot
 # Project Clone on github
 # Install Prom-Client
 ## Change index file
@@ -34,3 +35,5 @@ app.use(responseTime(function (req, res, time) {
         tasksumm.observe(time);
         taskhisto.observe(time);
 }));
+
+
