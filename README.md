@@ -23,7 +23,12 @@ https://computingforgeeks.com/forward-logs-to-grafana-loki-using-promtail/
 
 ### Scripting
 - [seebk/rsync_backup.py](https://gist.github.com/seebk/9291836)
+- [Linux Shell](hackerrank.com/domains/shell)
 
 ### Linux
 [CS2043: Unix Tools & Scripting](http://www.cs.cornell.edu/courses/cs2043/2014sp/)
 []()
+
+
+### Git
+https://learngitbranching.js.org/
