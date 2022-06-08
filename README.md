@@ -32,3 +32,13 @@ https://computingforgeeks.com/forward-logs-to-grafana-loki-using-promtail/
 
 ### Git
 https://learngitbranching.js.org/
+
+### CI/CD
+https://www.youtube.com/watch?v=PGyhBwLyK2U&ab_channel=freeCodeCamp.org
+
+### K8S
+[Welcome to 100 Days Of Kubernetes!](https://100daysofkubernetes.io/overview.html)
+
+
+### Linux tools
+[Linux references](https://www.grymoire.com/index.html)
