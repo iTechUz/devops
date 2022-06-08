@@ -1,6 +1,8 @@
+
+### [How To Become a DevOps Engineer In Six Months or Less](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
+
+
 https://www.notion.so/DevOps-kursi-haqida-ma-lumot-b16af078127540cd805ffe90403c10e0?showMoveTo=true
-
-
 
 ### Maqolalar uchun manbalar
 
