@@ -1,6 +1,6 @@
 
 ### [How To Become a DevOps Engineer In Six Months or Less](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
-
+### [DEVOPS](https://www.bogotobogo.com/DevOps/DevOps_Jenkins_Chef_Puppet_Graphite_Logstash.php)
 
 https://www.notion.so/DevOps-kursi-haqida-ma-lumot-b16af078127540cd805ffe90403c10e0?showMoveTo=true
 
