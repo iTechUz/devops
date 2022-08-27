@@ -1,6 +1,8 @@
+
+### [How To Become a DevOps Engineer In Six Months or Less](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
+### [DEVOPS](https://www.bogotobogo.com/DevOps/DevOps_Jenkins_Chef_Puppet_Graphite_Logstash.php)
+
 https://www.notion.so/DevOps-kursi-haqida-ma-lumot-b16af078127540cd805ffe90403c10e0?showMoveTo=true
-
-
 
 ### Maqolalar uchun manbalar
 
@@ -23,7 +25,22 @@ https://computingforgeeks.com/forward-logs-to-grafana-loki-using-promtail/
 
 ### Scripting
 - [seebk/rsync_backup.py](https://gist.github.com/seebk/9291836)
+- [Linux Shell](hackerrank.com/domains/shell)
 
 ### Linux
 [CS2043: Unix Tools & Scripting](http://www.cs.cornell.edu/courses/cs2043/2014sp/)
 []()
+
+
+### Git
+https://learngitbranching.js.org/
+
+### CI/CD
+https://www.youtube.com/watch?v=PGyhBwLyK2U&ab_channel=freeCodeCamp.org
+
+### K8S
+[Welcome to 100 Days Of Kubernetes!](https://100daysofkubernetes.io/overview.html)
+
+
+### Linux tools
+[Linux references](https://www.grymoire.com/index.html)
