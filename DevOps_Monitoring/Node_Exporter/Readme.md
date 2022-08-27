@@ -33,7 +33,7 @@ sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter
 ```
 Next, we need to create the systemd file for the service:
 ```js
-$ sudo nano /etc/systemd/system/node_exporter.service
+sudo nano /etc/systemd/system/node_exporter.service
 ```
 ```js
 [Unit]
@@ -56,7 +56,7 @@ sudo systemctl start node_exporter
 ```
 Finally, we can add the node_exporter to our endpoints so Prometheus can scrape the data:
 ```js
-$ sudo nano /etc/prometheus/prometheus.yml
+sudo nano /etc/prometheus/prometheus.yml
 ```
 ```js
 - job_name: 'node_exporter'
@@ -64,7 +64,7 @@ $ sudo nano /etc/prometheus/prometheus.yml
   - targets: ['localhost:9100']
 ```
 ```js
-$ sudo systemctl restart prometheus
+sudo systemctl restart prometheus
 ```
 
 Now, if we return to Prometheus and refresh, when we try to search for a metric, various system metrics

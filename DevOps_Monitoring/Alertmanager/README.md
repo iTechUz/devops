@@ -18,8 +18,6 @@ cd /tmp/
 ```
 ```js
 wget https://github.com/prometheus/alertmanager/\
-```
-```js
 releases/download/v0.16.1/alertmanager-0.16.1.linux-amd64.tar.gz
 ```
 va faylni chiqarib olamiz:

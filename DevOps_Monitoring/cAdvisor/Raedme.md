@@ -14,7 +14,7 @@ sudo docker run \
   --volume=/sys:/sys:ro \
   --volume=/var/lib/docker/:/var/lib/docker:ro \
   --volume=/dev/disk/:/dev/disk:ro \
-  --publish=8000:8080 \
+  --publish=8080:8080 \
   --detach=true \
   --name=cadvisor \
   google/cadvisor:latest
@@ -29,12 +29,12 @@ we can view it by navigating to the lab server URL and accessing the appropriate
 where Prometheus will check for these container metrics. Let’s actually go ahead and add cAdvisor to
 Prometheus now:
 ```js
-$ sudo nano /etc/prometheus/prometheus.yml
+sudo nano /etc/prometheus/prometheus.yml
 ```
 ```js
 - job_name: 'cadvisor'
   static_configs:
-  - targets: ['localhost:8000']
+  - targets: ['localhost:8080']
 ```
 Next, restart Prometheus:
 ```js
